@@ -40,8 +40,48 @@
 # print(sum)
 
 # while 循环
-L = ["Bert", "Lisa", "Adam"]
-x = 0
-while x < len(L):
-    print("Hello ", L[x])
-    x = x+1
+# L = ["Bert", "Lisa", "Adam"]
+# x = 0
+# while x < len(L):
+#     print("Hello ", L[x])
+#     x = x+1
+
+# continue
+# x = 0
+# while x < 100:
+#     x = x+1
+#     if x % 2 == 0:
+#         continue
+#     print(x)
+
+# dict & set
+# a = (1, 2, 3) # (1, [2, 3])
+# b = set(a)
+# print(a, b)
+    
+# define function
+# def my_abs(x):
+#     if not isinstance(x, (int, float)):
+#         raise TypeError("bad operand type")
+#     if(x >= 0):
+#         return x
+#     else:
+#         return -x
+
+# import math
+# def quadratic(a, b, c):
+#     # if (a, b, c) not isinstance(int, float):
+#     #     raise TypeError("bad ")
+#     # else:
+#         sq = math.sqrt(b*b-4*a*c)# 注意sqrt中的值不能为负数
+#         return round((-b+sq)/(2.0*a), 2) , round((-b-sq)/(2.0*a), 2) 
+    
+# *numbers表示把numbers这个list的所有元素作为可变参数传进去
+# def calc(*numbers):
+#     sum = 0
+#     for x in numbers:
+#         sum = sum + x**2
+#     return sum
+# arr = [1, 2, 4]
+# print(calc(*arr))
+# 若定义calc函数参数不带*，则直接传入list或tuple [1, 2, 4] | (1, 2, 4)
